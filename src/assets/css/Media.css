@@ -1,0 +1,41 @@
+@media only screen and (max-width: 600px) {
+    .tasks-wrapper {
+        padding: 50px 10px 10px 10px;
+    }
+    .tasks-wrapper .tasks-container {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .tasks-wrapper .tasks-container .tasks-list-wrapper ul li .list-wrapper .task-actions {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .tasks-wrapper .tasks-container .tasks-list-wrapper ul li .list-wrapper .task-actions svg {
+        width: 20px;
+    }
+}
+@media only screen and (max-width: 410px) {
+    .tasks-wrapper .tasks-container .tasks-list-wrapper .task-modal {
+        left: auto;
+        margin: auto;
+        padding: 20px;
+        top: auto;
+        width: 100%;
+    }
+    .tasks-wrapper .tasks-container .tasks-list-wrapper .task-modal .modal-dialog {
+        max-width: 100%;
+    }
+    .tasks-wrapper .tasks-container .tasks-list-wrapper .task-modal .btn {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .tasks-wrapper .tasks-container .tasks-list-wrapper ul li .list-wrapper .task-detail {
+        padding: 0;
+    }
+    .tasks-wrapper .tasks-container .tasks-list-wrapper ul li .list-wrapper .task-actions {
+        display: none;
+    }
+}
